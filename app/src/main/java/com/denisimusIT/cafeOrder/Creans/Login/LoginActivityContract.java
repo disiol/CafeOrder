@@ -1,15 +1,13 @@
 package com.denisimusIT.cafeOrder.Creans.Login;
 
-public interface LoginActyvityContract {
+public interface LoginActivityContract {
     interface LoginView {
         void sendLogotapeImage();
-
         void showButtonLoginText();
     }
 
-    interface Presenter {
+    interface LoginPresenter {
         void onButtonWasClicked();
-
         void onDestroy();
     }
 
