@@ -12,9 +12,12 @@ public interface LoginActyvityContract {
     }
 
     interface Model {
-        void loadButtonLoginText();
-        void loginValidator();
         void logotypeLoader();
+        void loginValidator();
+        void loadListOfGroup();
+        void loadButtonLoginText();
+
+
     }
 }
 
