@@ -1,8 +1,8 @@
 package com.denisimusIT.cafeOrder.Model;
 
-import com.denisimusIT.cafeOrder.Creans.Login.LoginActyvityContract;
+import com.denisimusIT.cafeOrder.Creans.Login.LoginActivityContract;
 
-public class Login implements LoginActyvityContract.Model {
+public class LoginModel implements LoginActivityContract.Model {
 
     @Override
     public void logotypeLoader() {
