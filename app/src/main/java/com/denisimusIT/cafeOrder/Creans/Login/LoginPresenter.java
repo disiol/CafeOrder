@@ -1,6 +1,6 @@
 package com.denisimusIT.cafeOrder.Creans.Login;
 
-public class LoginPresenter implements LoginActyvityContract.LoginPresenter {
+public class LoginPresenter implements LoginActivityContract.LoginPresenter {
     @Override
     public void onButtonWasClicked() {
 
@@ -8,6 +8,6 @@ public class LoginPresenter implements LoginActyvityContract.LoginPresenter {
 
     @Override
     public void onDestroy() {
-
+      //TODO освободить ресурсы и контексты
     }
 }
