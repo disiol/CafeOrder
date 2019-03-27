@@ -3,6 +3,7 @@ package com.denisimusIT.cafeOrder.Creans.Login;
 public interface LoginActyvityContract {
     interface LoginView {
         void showButtonLoginText();
+        void sendLogotapeImage();
     }
 
     interface Presenter {
@@ -12,6 +13,8 @@ public interface LoginActyvityContract {
 
     interface Model {
         void loadButtonLoginText();
+        void loginVolidator();
+        void logitipeLoder();
     }
 }
 
